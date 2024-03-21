@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image'
-import styles from '../../styles/Navbar.module.css'
+import styles from '../styles/Navbar.module.css'
 
 export default function Navbar() {
     return (
@@ -11,10 +11,10 @@ export default function Navbar() {
             </div>
             <ul className={styles.link_items}>
                 <li>
-                    <Link href='/'>Home</Link>
+                    <Link href='/'><span>Home</span></Link>
                 </li>
                 <li>
-                    <Link href='/about'>Sobre</Link>
+                    <Link href='/about'><span>Sobre</span></Link>
                 </li>
             </ul>
         </nav>

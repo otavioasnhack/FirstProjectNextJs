@@ -27,7 +27,7 @@
     margin-right: 1.3em;
 }
 
-/*.link_items a {
+.link_items span {
     color: #fff;
     text-decoration: none;
     padding: 5px;
@@ -35,6 +35,6 @@
     border-bottom: 2px solid transparent;   
 }
 
-.link_items a:hover {
+.link_items span:hover {
     border-color: #fff;
-}*/
+}
